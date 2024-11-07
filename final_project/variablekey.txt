@@ -1,0 +1,37 @@
+VARIABLE DESCRIPTIONS
+
+student: participant ID number
+
+stepsave: average daily steps across all days
+
+stepslmh: categorical version of stepsave where 1 = lowest third of average steps, 2 = middle third of average steps, and 3 = highest third of average steps
+
+stepssd: mean-squared successive differences across all adjacent days where step data were available
+
+stepssdlmh: categorical version of stepssd where 1 = lowest third of step variability, 2 = middle third of step variability, and 3 = highest third of step variability
+
+sleepave: average minutes of sleep across all days
+
+sleeplmh: categorical version of sleepave where 1 = lowest third of average sleep, 2 = middle third of average sleep, and 3 = highest third of average sleep
+
+sleepsd: mean-squared successive differences across all adjacent days where sleep data were available
+
+sleepsdlmh: categorical version of sleepsd where 1 = lowest third of sleep variability, 2 = middle third of sleep variability, and 3 = highest third of sleep variability
+
+female: 1 = female, 0 = male
+
+psetz: z-standardized average of weekly homework assignment grades across the semester 
+
+psetz_minus3lowest: same as psetz but lowest 3 scores removed to evaluate robustness of effects to potential outliers
+
+understandse: self-reported rating of how well the student understand the concept of standard error after the first lecture introducing the concept, 1-7 Likert scale where higher scores are better understanding 
+
+corrguesserror: average error scores after playing one round of guessthecorrelation.com higher scores are worse guesses at the correlation depicted in scatterplots
+
+hwcondiff: self-reported difficulty concentrating while doing homework assignments on 1-7 Likert scale where higher scores are more difficulty concentrating
+
+leccondiff: self-reported difficulty concentrating during lecture on 1-7 Likert scale where higher scores are more difficulty concentrating
+
+lecturetired: self-reported tiredness at the beginning of class on a 1-7 Likert scale where higher scores are more tired
+
+preexamstress: self-reported stress level before an exam on 1-7 Likert scale where higher scores are higher levels of stress
